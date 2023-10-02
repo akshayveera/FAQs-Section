@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,500&display=swap');
+
+body{
+    background-color: rgb(188, 142, 231);
+    padding: 0px 50px;    
+    font-style: bold;
+    line-height: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container{
+    width: 70%;
+    margin-inline: auto;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+.container>p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.accordian{
+    background-color: aliceblue;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(160, 101, 214);
+    cursor: pointer;
+
+}
+
+h4{
+    margin: 10px 0px;
+}
+
+.ques{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.icon{
+    margin-right: 30px;
+    transition: transform 0.5s;
+}
+
+.icon.active{
+    transform: rotate(180deg);
+}
+
+.ans{
+    color: #666;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s;
+}
+
+/* .ans.active{
+    max-height: fit-content;
+} */
+
+
+
+
